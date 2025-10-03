@@ -9553,7 +9553,350 @@
       "research"
     ],
     "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11271499/"
-  } 
-  
-  
+  },
+  {
+    "id": "OSD-877",
+    "title": "Element content of seedlings from seed and liverwort plant tissue in Apollo 15 and Apollo 16 post-flight biomedical evaluations (MMP 21243, MMP 21242)",
+    "domain": "Biological",
+    "description": "Element content analysis of seedlings from seed and liverwort tissue in Apollo 15 and Apollo 16 post-flight biomedical evaluations. These findings are related to the feasibility of using plants for food in an international lunar base. The study examined chemical analysis and other measurements made on lunar-treated plant seedlings grown for 14 to 21 days demonstrating direct interaction between germfree plants and lunar material.",
+    "variables": [
+      "Aluminum",
+      "Boron",
+      "Barium",
+      "Calcium",
+      "Cobalt",
+      "Chromium",
+      "Copper",
+      "Iron",
+      "Potassium",
+      "Magnesium",
+      "Manganese",
+      "Molybdenum",
+      "Sodium",
+      "Nickel",
+      "Phosphorus",
+      "Silicon",
+      "Titanium",
+      "Vanadium",
+      "Yttrium",
+      "Zinc",
+      "Zirconium",
+      "Scandium"
+    ],
+    "methods": "Atomic Absorption Spectroscopy, Flame Atomic Absorption Spectroscopy, Graphite Furnace Atomic Absorption Spectroscopy, Hydride Generation Atomic Absorption Spectroscopy",
+    "location": "Apollo 15 and Apollo 16 missions, lunar surface and Earth surface controls",
+    "authors": [
+      "Charles H Walkinshaw",
+      "P. A Covington",
+      "Pratt H Johnson",
+      "S. Venketeswaran",
+      "Gene A Bozarth"
+    ],
+    "data_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-877",
+    "units": {
+      "Aluminum": "micrograms of element per gram dry weight",
+      "Boron": "micrograms of element per gram dry weight",
+      "Calcium": "micrograms of element per gram dry weight",
+      "Iron": "micrograms of element per gram dry weight",
+      "Potassium": "micrograms of element per gram dry weight"
+    },
+    "organisms": [
+      "Raphanus sativus",
+      "Lactuca sativa",
+      "Brassica oleracea",
+      "Glycine max",
+      "Citrus limonia",
+      "Marchantia"
+    ],
+    "platform": "Apollo Program - post-flight analysis",
+    "data_type": "Spectrochemical Analysis",
+    "release_date": "18-Sep-2025"
+  },
+  {
+    "id": "OSD-772",
+    "title": "PH-04 Chile Peppers in Space",
+    "domain": "Biological",
+    "description": "Growing plants in spaceflight presents challenges to achieve optimal plant growth and productivity. One of NASA's goals is growing edible crops in spaceflight to supplement the astronauts' diet with fresh vegetables and assess food safety of the crops. The Advanced Plant Habitat (APH), an enclosed, controlled plant growth facility on the ISS was used to grow chile peppers, Capsicum annum c.v. NuMex Espanola Improved. This was one of the longest continuous plant growth experiments conducted on ISS (137 days), producing 26 pepper fruit.",
+    "variables": [
+      "Microbiota composition",
+      "16S rRNA sequences",
+      "Microbial diversity"
+    ],
+    "methods": "16S Amplicon Sequencing using Illumina MiSeq platform, paired-end 250bp reads",
+    "location": "International Space Station - Japanese Experiment Module, Advanced Plant Habitat",
+    "authors": [
+      "Gioia D. Massa",
+      "Matthew Romeyn",
+      "Christina L Khodadad",
+      "Mary E. Hummerick",
+      "Jeffrey T. Richards",
+      "Raymond M. Wheeler",
+      "Anirudha R. Dixit",
+      "LaShelle E. Spencer",
+      "Jacob J. Torres",
+      "Jennifer L Gooden",
+      "Aaron B. Curry",
+      "Oscar A. Monje",
+      "Cory J. Spern",
+      "Nicole DuFour",
+      "Lucie Poulet"
+    ],
+    "data_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-772",
+    "units": {
+      "Temperature": "degree Celsius",
+      "Growth Time": "days",
+      "Light Intensity": "micromole per square meter per second"
+    },
+    "organisms": [
+      "Capsicum annuum (host)",
+      "Microbiota"
+    ],
+    "platform": "International Space Station (ISS)",
+    "data_type": "Amplicon Sequencing",
+    "release_date": "09-Sep-2025"
+  },
+  {
+    "id": "OSD-883",
+    "title": "Analysis of Vegetable Seedlings Grown in Contact with Apollo 14 Lunar Surface Fines",
+    "domain": "Biological",
+    "description": "Chemical analysis and other measurements made on lunar-treated plant seedlings grown for 14 to 21 days demonstrate a direct interaction between germfree plants and lunar material. Treated plants dissolved some lunar minerals and concentrated others in their tissues.",
+    "variables": [
+      "Element content",
+      "Growth assessment",
+      "Germination rates",
+      "Mineral concentrations"
+    ],
+    "methods": "Spectrochemical Analysis, Germination and Growth Assessment",
+    "location": "Apollo 14 mission - post-flight analysis",
+    "authors": [
+      "Research team members - details in dataset"
+    ],
+    "data_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-883",
+    "units": {
+      "Element content": "micrograms per gram dry weight"
+    },
+    "organisms": [
+      "Brassica oleracea",
+      "Lactuca sativa",
+      "Raphanus sativus",
+      "Daucus carota"
+    ],
+    "platform": "Apollo Program",
+    "data_type": "Chemical Analysis",
+    "release_date": "15-Aug-2025"
+  },
+  {
+    "id": "OSD-832",
+    "title": "Effects of 5-Ion Beam Irradiation and Hindlimb Unloading on Metabolic Pathways in Plasma and Brain of Behaviorally Tested WAG/Rij Rats - Plasma data",
+    "domain": "Biological",
+    "description": "A limitation of simulated space radiation studies is that radiation exposure is not the only environmental challenge astronauts face during missions. Therefore, this study characterized behavioral and cognitive responses in a rat model exposed to both space radiation simulation and mechanical unloading to simulate microgravity effects.",
+    "variables": [
+      "Metabolite concentrations",
+      "Behavioral parameters",
+      "Cognitive performance"
+    ],
+    "methods": "Metabolite profiling, Behavioral testing",
+    "location": "Ground-based space analog facility",
+    "authors": [
+      "Research team - details in dataset"
+    ],
+    "data_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-832",
+    "units": {
+      "Metabolites": "concentration units as specified in dataset"
+    },
+    "organisms": [
+      "Rattus norvegicus (WAG/Rij rats)"
+    ],
+    "platform": "Ground-based space simulation",
+    "data_type": "Metabolite profiling",
+    "release_date": "17-Jul-2025"
+  },
+  {
+    "id": "OSD-881",
+    "title": "Life long effects of radiation and high fat diet on the mouse right ventricular tissue",
+    "domain": "Biological",
+    "description": "Study of the long-term effects of single whole-body gamma and simulated GCR irradiation (IR) and consumption of a Western Diet (WD) on the heart's right ventricle (RV). Three-month-old C57Bl/6J wild-type mice were used to investigate cardiovascular impacts of space radiation exposure.",
+    "variables": [
+      "Gene expression profiles",
+      "Transcriptomic changes",
+      "Cardiac function markers"
+    ],
+    "methods": "Transcription profiling, RNA sequencing",
+    "location": "Ground-based radiation facility",
+    "authors": [
+      "Research team - details in dataset"
+    ],
+    "data_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-881",
+    "units": {
+      "Gene expression": "FPKM or TPM values"
+    },
+    "organisms": [
+      "Mus musculus (C57Bl/6J)"
+    ],
+    "platform": "Ground-based space radiation simulation",
+    "data_type": "Transcription profiling",
+    "release_date": "25-Jun-2025"
+  },
+  {
+    "id": "PSI-177",
+    "title": "Investigating the Structure of Paramagnetic Aggregates from Colloidal Emulsions - 4 (InSPACE-4)",
+    "domain": "Physical",
+    "description": "The overall objective of the InSPACE-4 investigation was to study the effects of particle shape and toggle duty cycle on the phase separation kinetics of particles in toggled fields. This ISS investigation was conducted using magnetic prolate ellipsoids with aspect ratios ranging from 2:1 to 4:1. The sample material consisted of randomly oriented nano Fe3O4 coated polymer beads within a fluid filled vial, creating a magnetorheological fluid (MR).",
+    "variables": [
+      "Particle aggregation patterns",
+      "Phase separation kinetics",
+      "Magnetic field strength",
+      "Toggle frequency",
+      "Duty cycle",
+      "Particle orientation",
+      "Birefringence measurements"
+    ],
+    "methods": "Magnetic field manipulation, Birefringence measurements using crossed polarizers, Video microscopy, Particle tracking",
+    "location": "International Space Station (ISS) - Microgravity Science Glovebox (MSG)",
+    "authors": [
+      "Eric Furst"
+    ],
+    "data_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-177",
+    "units": {
+      "Frequency": "Hz",
+      "Duty Ratio": "dimensionless ratio",
+      "Magnetic Field": "Gauss or Tesla",
+      "Duration": "minutes"
+    },
+    "platform": "International Space Station (ISS)",
+    "data_type": "Complex Fluids - Soft Matter",
+    "release_date": "15-Aug-2025",
+    "research_area": "Complex Fluids - Soft Matter"
+  },
+  {
+    "id": "PSI-186",
+    "title": "Coupled Growth in Hypermonotectics (CGH)",
+    "domain": "Physical",
+    "description": "The overall objective of the Coupled Growth in Hypermonotectics is to understand the fundamental physics controlling solidification in immiscible alloy systems. The investigation flew aboard the Life and Microgravity Spacelab (LMS) mission during the summer of 1996. Processing conditions were controlled to force the production of an aligned fibrous phase in the microstructure of processed samples.",
+    "variables": [
+      "Microstructure morphology",
+      "Growth velocity",
+      "Thermal gradient",
+      "Composition variations",
+      "Interface stability"
+    ],
+    "methods": "Directional solidification using Advanced Gradient Heating Facility (AGHF), Metallographic analysis, Thermal gradient control",
+    "location": "Space Shuttle - Life and Microgravity Spacelab (LMS) mission",
+    "authors": [
+      "J. Barry Andrews (retired)",
+      "Sam R. Coriell",
+      "Subhayu Sen"
+    ],
+    "data_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-186",
+    "units": {
+      "Thermal Gradient": "degree C per cm",
+      "Growth Velocity": "micrometers per sec",
+      "Composition": "weight % In"
+    },
+    "platform": "Space Shuttle",
+    "data_type": "Materials Science - Solidification",
+    "release_date": "12-Aug-2025",
+    "research_area": "Materials Science"
+  },
+  {
+    "id": "PSI-166",
+    "title": "Unified Support for THERMOLAB - ISS, ICOPROSOL and PARSEC (EML USTIP Batch 2)",
+    "domain": "Physical",
+    "description": "Investigation of anomalous nucleation events in zirconium samples during ISS-EML experiments. The anomalous nucleation events of interest are hypothesized to be caused by cavitation in the melt. Experiments replicated the conditions in which the nucleation events were previously observed.",
+    "variables": [
+      "Nucleation temperatures",
+      "Undercooling levels",
+      "Thermophysical properties",
+      "Cavitation events"
+    ],
+    "methods": "Electromagnetic levitation (EML), Containerless processing, Thermal analysis",
+    "location": "International Space Station (ISS) - Materials Science Research Rack",
+    "authors": [
+      "Research team - details in dataset"
+    ],
+    "data_url": "https://psi.nasa.gov/physci/repo/search?q=PSI-166",
+    "units": {
+      "Temperature": "Kelvin or Celsius",
+      "Time": "seconds"
+    },
+    "platform": "International Space Station (ISS)",
+    "data_type": "Materials Science",
+    "research_area": "Materials Science"
+  },
+  {
+    "id": "PSI-165",
+    "title": "Advanced Colloids Experiment -Temperature controlled- 2 (ACE-T2)",
+    "domain": "Physical",
+    "description": "The objective of this experiment is the investigation of the assembly of complex structures from micron-scale colloidal particles interacting via tunable attractive interactions. Regulating temperature allows control of the strength of attractive interactions between particles.",
+    "variables": [
+      "Colloidal assembly patterns",
+      "Temperature effects",
+      "Particle interactions",
+      "Structure formation"
+    ],
+    "methods": "Light Microscopy Module (LMM), Fluids Integrated Rack (FIR), Temperature control, Video imaging at 30 fps",
+    "location": "International Space Station (ISS)",
+    "authors": [
+      "Research team - details in dataset"
+    ],
+    "data_url": "https://psi.nasa.gov/physci/repo/search?q=PSI-165",
+    "units": {
+      "Temperature": "Celsius",
+      "Frame rate": "frames per second"
+    },
+    "platform": "International Space Station (ISS)",
+    "data_type": "Complex Fluids - Soft Matter",
+    "research_area": "Complex Fluids - Soft Matter"
+  }, 
+  {
+  "id": "NBISC",
+  "title": "NASA Biological Institutional Scientific Collection (NBISC)",
+  "domain": "Biological",
+  "description": "The NBISC is a biorepository of non-human biospecimens collected from NASA-funded spaceflight investigations and correlated ground studies. It receives, stores, documents, preserves, and makes these samples available to the scientific community. :contentReference[oaicite:0]{index=0}",
+  "collections": [
+    "Space Biology Collection",
+    "Space Radiation / Human Research Program Biospecimen & Tissue Sharing Collection (BTSC)",
+    "Space Microbial Culture Collection (SMCC)"
+  ],
+  "sample_types": [
+    "Tissue (various organs: muscle, bone, brain, liver, kidney, etc.)",
+    "Microbial isolates"
+  ],
+  "organisms": [
+    "Mus musculus (mouse)",
+    "Rattus norvegicus (rat)",
+    "Quail",
+    "Other model species"
+  ],
+  "storage_conditions": [
+    "-80 °C",
+    "-20 °C",
+    "+4 °C",
+    "Ambient (as appropriate)"
+  ],
+  "metadata_fields": [
+    "Sample ID",
+    "Organism",
+    "Tissue type",
+    "Preservation method",
+    "Collection mission / experiment",
+    "Associated study ID",
+    "Storage location",
+    "Collection date",
+    "Experimental condition"
+  ],
+  "methods": "Samples are collected from NASA spaceflight and ground experiments, preserved, cataloged, and archived. Specimens not fully used in primary studies are made available for reuse under open science policies. :contentReference[oaicite:1]{index=1}",
+  "data_url": "https://www.nasa.gov/ames/nasa-biological-institutional-scientific-collection-nbisc", 
+  "visualization_portal": "https://visualization.osdr.nasa.gov/nbisc/home/", 
+  "notes": [
+    "Since 1995, NBISC has supported gravitational biology research by distributing archived specimens. :contentReference[oaicite:2]{index=2}",
+    "NBISC houses tens of thousands of biospecimens. :contentReference[oaicite:3]{index=3}",
+    "SMCC (Space Microbial Culture Collection) is a new component managing microbial isolates. :contentReference[oaicite:4]{index=4}"
+  ],
+  "contact": {
+    "email": "ARC-DL-NBISC@mail.nasa.gov",
+    "inquiry": "Sample requests and proposals are mediated via the NASA Life Sciences / NBISC interface. :contentReference[oaicite:5]{index=5}"
+  }
+}
+
 ]
