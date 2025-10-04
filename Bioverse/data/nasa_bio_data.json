@@ -9897,6 +9897,235 @@
     "email": "ARC-DL-NBISC@mail.nasa.gov",
     "inquiry": "Sample requests and proposals are mediated via the NASA Life Sciences / NBISC interface. :contentReference[oaicite:5]{index=5}"
   }
-}
-
+},
+{
+  "id": "NSLSL",
+  "title": "NASA Space Life Sciences Library (NSLSL)",
+  "domain": "Biological / Publications",
+  "description": "The NSLSL is a centralized repository of scientific literature related to space life sciences. It includes peer-reviewed articles, technical reports, dissertations, and patents documenting biological, physiological, and medical findings from spaceflight and analog studies. The platform consolidates over 200,000 global records, is search-optimized, and supports advanced bibliometric queries. It is publicly accessible and frequently updated with research spanning microgravity, radiation, human health, biotechnology, and plant science in space environments.",
+  "total_articles": 200000,
+  "metadata_fields": [
+    "DOI",
+    "NSLSL ID",
+    "Title",
+    "Authors",
+    "Abstract",
+    "Keywords",
+    "Publication Year",
+    "Journal Title",
+    "Issue",
+    "Volume",
+    "Pages",
+    "Publication Type",
+    "External Source ID",
+    "Flight Platform",
+    "Ground Platform",
+    "E-Location",
+    "Publisher",
+    "Institutions",
+    "Language",
+    "Open Access",
+    "License",
+    "Subject Area",
+    "Full Text Link",
+    "Affiliated Institutions",
+    "Citation Count",
+    "Associated Data",
+    "Grant Support",
+    "Biology Kingdom",
+    "Cell Type",
+    "Organism",
+    "Tissue Type",
+    "Space Variables"
+  ],
+  "search_interface_url": "https://public.ksc.nasa.gov/nslsl/",
+  "submission_guidelines_url": "https://public.ksc.nasa.gov/nslsl/wp-content/uploads/sites/30/2023/08/NSLSL-External-Users-Guide-Version-1.0.pdf",
+  "contact": {
+    "email": "nslsl-support@nasa.gov",
+    "page": "https://public.ksc.nasa.gov/nslsl/contact-us/"
+  },
+  "data_type": "Scientific Literature Repository",
+  "release_date": "2023-08-01",
+  "keywords": [
+    "space life sciences",
+    "microgravity",
+    "biomedical research",
+    "radiation",
+    "space biology",
+    "plant biology",
+    "space medicine",
+    "spaceflight",
+    "biosciences",
+    "astrobiology"
+  ]
+},
+{
+      "project_id": "TBP-6741",
+      "title": "Fire Suppression and Safety in Reduced Gravity Environments",
+      "investigator": ["Angel Abbud-Madrid"],
+      "affiliations": ["Colorado School of Mines"],
+      "program": "Physical Sciences",
+      "start_year": 2003,
+      "end_year": 2007,
+      "status": "completed",
+      "description": "This study and its accompanying simulations focused on suppressing small fires in spacecraft and extraterrestrial environments using water mist. Experiments validated fire suppression models and examined suppressant-fire interactions in various gravity (spacecraft, Moon, Mars) using ground-based tests and simulations.",
+      "objectives": [
+        "Validate fire suppression simulation models for low-gravity environments",
+        "Characterize suppressant-fire interactions for engineering safer spacecraft",
+        "Provide systematic methods for fire suppression design in enclosed compartments"
+      ],
+      "progress_reports": {
+        "2004": "FY 2004 Report",
+        "2005": "FY 2005 Report",
+        "2006": "FY 2006 Report"
+      },
+      "final_report_url": "https://taskbook.nasaprs.com/tbp/tbpdf.cfm?id=6741",
+      "publications": [
+        {
+          "title": "Development of a Fire Suppression Simulation Tool for Various Low-Gravity Environments",
+          "authors": ["Schwer DA", "Kailasanath K", "Abbud-Madrid A"],
+          "url": "",
+          "conference": "45th Aerospace Sciences Meeting & Exhibit, AIAA 2007"
+        }
+      ],
+      "impact": "Enhanced understanding and modeling of fire suppression for spacecraft, Moon, Mars, and for improving fire safety practices in terrestrial applications such as aircraft, ships, and telecommunication rooms.",
+      "keywords": ["microgravity", "fire safety", "combustion science", "water mist"],
+      "data_links": [],
+      "related_projects": [],
+      "update_years": ["2004", "2005", "2006"],
+      "contact": {
+        "email": "aabbudma@mines.edu",
+        "phone": "303-384-2300"
+      },
+      "affiliation_address": "Center for Space Resources, 1310 Maple St., Golden, CO 80401",
+      "organization_type": "UNIVERSITY",
+      "organization_name": "Colorado School of Mines",
+      "grant_number": "NNC04GA97G",
+      "solicitation": "02-OBPR-08",
+      "responsible_center": "NASA GRC",
+      "grant_monitor": "Wu, Ming-shin",
+      "grant_monitor_email": "Ming-shin.Wu@grc.nasa.gov",
+      "program_element": "COMBUSTION SCIENCE--Surface combustion, shs, fire safety and smoldering",
+      "project_type": "INTERDISCIPLINARY (2004-2007)",
+      "no_phd_candidates": 1,
+      "no_bachelors_candidates": 1,
+      "no_phd_degrees": 1,
+      "no_bachelors_degrees": 1
+  },
+  {
+      "project_id": "TBP-9133",
+      "title": "Integrated Endurance and Resistance Exercise Countermeasures Using a Gravity Independent Training Device",
+      "investigator": ["Gregory R. Adams"],
+      "affiliations": ["University of California, Irvine"],
+      "program": "Human Research",
+      "start_year": 2008,
+      "end_year": 2012,
+      "status": "completed",
+      "description": "Research focused on exercise hardware and protocols (M-MED) for maintaining astronaut fitness during long-term spaceflight. Used a gravity-independent device to test endurance and resistance training for musculoskeletal and cardiovascular health.",
+      "objectives": [
+        "Validate M-MED device efficacy for cardiovascular and strength exercise",
+        "Develop time/space-efficient exercise protocols for astronaut health"
+      ],
+      "progress_reports": {
+        "2008": "FY 2008 Report",
+        "2009": "FY 2009 Report",
+        "2010": "FY 2010 Report",
+        "2011": "FY 2011 Report",
+        "2012": "FY 2012 Report"
+      },
+      "final_report_url": "https://taskbook.nasaprs.com/tbp/tbpdf.cfm?id=9133",
+      "publications": [
+        {
+          "doi": "10.1249/MSS.0000000000000483",
+          "title": "Concurrent exercise on a gravity-independent device during simulated microgravity.",
+          "authors": ["Cotter JA", "Yu A", "Haddad F", "Kreitenberg A", "Baker MJ", "Tesch PA", "Baldwin KM", "Caiozzo VJ", "Adams GR"],
+          "url": "http://dx.doi.org/10.1249/MSS.0000000000000483"
+        },
+        {
+          "doi": "10.3357/AMHP.4229.2016",
+          "title": "Exercise responses to gravity-independent flywheel aerobic and resistance training.",
+          "authors": ["Owerkowicz T", "Cotter JA", "Haddad F", "Yu AM", "Camilon ML", "Hoang TN", "Jimenez DJ", "Kreitenberg A", "Tesch PA", "Caiozzo VJ", "Adams GR"],
+          "url": "http://dx.doi.org/10.3357/AMHP.4229.2016"
+        },
+        {
+          "title": "Exercise training attenuates the muscle mitochondria genomic response to bedrest.",
+          "authors": ["Cotter JA", "Plaza-Florido A", "Adams GR", "Haddad F", "Scott JM", "Everett M", "Ploutz-Snyder L", "Radom-Aizik S"],
+          "url": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=38650118"
+        }
+      ],
+      "impact": "Validated protocols and hardware for maintaining crew health during space missions with broader implications for efficient exercise where time/space are constrained.",
+      "keywords": ["microgravity", "exercise", "countermeasures", "crew health", "M-MED", "aerobic", "resistance training"],
+      "data_links": [],
+      "related_projects": [],
+      "update_years": ["2008", "2009", "2010", "2011", "2012"],
+      "contact": {
+        "email": "gradams@uci.edu",
+        "phone": "949-824-5518"
+      },
+      "co_investigators": [
+        { "name": "Kenneth Baldwin", "affiliation": "University of California, Irvine" },
+        { "name": "Vincent Caiozzo", "affiliation": "University of California, Irvine" }
+      ],
+      "organization_type": "UNIVERSITY",
+      "organization_name": "University of California, Irvine",
+      "affiliation_address": "Dept. of Physiology & Biophysics, Irvine, CA 92697-0001",
+      "grant_number": "NCC 9-58-MA01601",
+      "responsible_center": "NSBRI",
+      "program_risks": [
+        "Risk of Reduced Physical Performance Capabilities Due to Reduced Aerobic Capacity",
+        "Risk of Impaired Performance Due to Reduced Muscle Size, Strength and Endurance"
+      ],
+      "program_gaps": ["A9", "M7", "M9"],
+      "project_type": "Ground"
+  },
+  {
+      "project_id": "TBP-10226",
+      "title": "Individual and Group Behavior of Bion-M1 Rodents",
+      "investigator": ["Jeffrey Alberts"],
+      "affiliations": ["Indiana University"],
+      "program": "Space Biology",
+      "start_year": 2009,
+      "end_year": 2015,
+      "status": "completed",
+      "description": "This project analyzed group and individual rodent behaviors during a month-long orbital mission of the Bion-M1 satellite. Used in-flight video and telemetry to study behavior, circadian patterns, and physiological adaptation in microgravity.",
+      "objectives": [
+        "Examine microgravity effects on rodent general and social behavior",
+        "Integrate behavior analysis with immune, musculoskeletal, neural, and endocrine data"
+      ],
+      "progress_reports": {
+        "2009": "FY 2009 Report",
+        "2010": "FY 2010 Report",
+        "2012": "FY 2012 Report",
+        "2014": "FY 2014 Report",
+        "2015": "FY 2015 Report"
+      },
+      "final_report_url": "https://taskbook.nasaprs.com/tbp/tbpdf.cfm?id=10226",
+      "publications": [
+        {
+          "doi": "10.1371/journal.pone.0104830",
+          "title": "Mice in Bion-M 1 space mission: Training and selection.",
+          "authors": ["Andreev-Andrievskiy A", "Popova A", "Boyle R", "Alberts J", "Shenkman B", "Vinogradova O", "Dolgov O", "Anokhin K", "Tsvirkun D", "Soldatov P", "Nemirovskaya T", "Ilyin E", "Sychev V"],
+          "url": "https://doi.org/10.1371/journal.pone.0104830"
+        }
+      ],
+      "impact": "Pioneered group housing of male mice for long-duration flight studies, producing insights into behavioral adaptation and cross-linking behavior with health outcomes in microgravity.",
+      "keywords": ["space biology", "microgravity", "rodent behavior", "Bion-M1"],
+      "data_links": [],
+      "related_projects": [],
+      "update_years": ["2009", "2010", "2012", "2014", "2015"],
+      "contact": {
+        "email": "alberts@indiana.edu",
+        "phone": "812-322-4732"
+      },
+      "affiliation_address": "1101 E 10th St, Bloomington, IN 47405-7007",
+      "organization_type": "UNIVERSITY",
+      "organization_name": "Indiana University",
+      "grant_number": "NNX09AP12G",
+      "solicitation": "2007 Space Flight: Bion-M1 NNH07ZTT001N",
+      "responsible_center": "NASA ARC",
+      "grant_monitor": "Rebecca Klotz",
+      "grant_monitor_email": "rebecca.a.klotz@nasa.gov",
+      "project_type": "Flight",
+      "flight_program": "Bion"
+  }
 ]
