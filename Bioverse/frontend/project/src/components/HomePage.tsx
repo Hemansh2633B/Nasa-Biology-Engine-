@@ -5,20 +5,31 @@ export default function HomePage() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<any[]>([]);
   const [summary, setSummary] = useState("");
+  const [loading, setLoading] = useState(false);
+
   const API_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:10000";
 
   const handleSearch = async () => {
     if (!query) return;
-    const res = await fetch(`${API_BASE}/search?q=${encodeURIComponent(query)}`);
-    const data = await res.json();
-    setResults(data.results || []);
+    setLoading(true);
 
-    // Also call describe for AI summary
-    const describeRes = await fetch(
-      `${API_BASE}/describe?q=${encodeURIComponent(query)}`
-    );
-    const describeData = await describeRes.json();
-    setSummary(describeData.summary || "");
+    try {
+      // Call search endpoint
+      const res = await fetch(`${API_BASE}/search?q=${encodeURIComponent(query)}`);
+      const data = await res.json();
+      setResults(data.results || []);
+
+      // Call describe endpoint for AI summary
+      const describeRes = await fetch(
+        `${API_BASE}/describe?q=${encodeURIComponent(query)}`
+      );
+      const describeData = await describeRes.json();
+      setSummary(describeData.summary || "");
+    } catch (err) {
+      console.error("Error fetching:", err);
+    }
+
+    setLoading(false);
   };
 
   return (
@@ -34,22 +45,18 @@ export default function HomePage() {
             <Home size={20} />
             <span>Home</span>
           </button>
-
           <button className="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-gray-300 hover:bg-gray-800 transition-colors">
             <Search size={20} />
             <span>Research</span>
           </button>
-
           <button className="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-gray-300 hover:bg-gray-800 transition-colors">
             <Compass size={20} />
             <span>Discoveries</span>
           </button>
-
           <button className="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-gray-300 hover:bg-gray-800 transition-colors">
             <Cpu size={20} />
             <span>AI Query</span>
           </button>
-
           <button className="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-gray-300 hover:bg-gray-800 transition-colors">
             <Info size={20} />
             <span>About</span>
@@ -89,7 +96,7 @@ export default function HomePage() {
                 onClick={handleSearch}
                 className="px-8 py-4 rounded-full bg-cyan-500 text-white font-semibold hover:bg-cyan-600 transition-colors"
               >
-                Search
+                {loading ? "Loading..." : "Search"}
               </button>
             </div>
           </div>
@@ -118,15 +125,15 @@ export default function HomePage() {
                 </div>
               ))}
 
-              {/* If no results yet, show placeholders */}
-              {results.length === 0 && !summary && (
+              {/* If nothing searched yet, show your placeholder cards */}
+              {results.length === 0 && !summary && !loading && (
                 <>
                   <div className="bg-gray-900/60 backdrop-blur-md rounded-2xl p-6 border border-gray-800">
                     <h3 className="text-xl font-bold mb-2">
                       AI-Powered Space Biology Search Engine
                     </h3>
                     <p className="text-gray-400">
-                      Explore the vast universe of space biology with our AI-driven search engine. Discover groundbreaking research, innovative discoveries, and the latest advancements in the field.
+                      Explore the vast universe of space biology with our AI-driven search engine.
                     </p>
                   </div>
 
@@ -135,7 +142,7 @@ export default function HomePage() {
                       Uncover the Mysteries of Space Biology
                     </h3>
                     <p className="text-gray-200">
-                      Delve into the fascinating world of space biology and uncover the secrets of life beyond Earth. Our search engine provides access to a wealth of knowledge.
+                      Delve into the fascinating world of space biology and uncover the secrets of life beyond Earth.
                     </p>
                   </div>
                 </>
@@ -152,6 +159,7 @@ export default function HomePage() {
     </div>
   );
 }
+
 
 
 
