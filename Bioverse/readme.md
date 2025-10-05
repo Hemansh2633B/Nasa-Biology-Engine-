@@ -1,33 +1,35 @@
-will need microsoft c++ build tools download from here "https://visualstudio.microsoft.com/visual-cpp-build-tools/"
-> ⚡ Navigate to project subfolder - `cd Nasa-Biology-Engine--main`
-> ⚡ Navigate to subfolder Bioverse - `cd Bioverse`
-> ⚡ Run `pip install -r backend/requirements.txt` before starting.
+## 🌍 Deployment
 
----
+### Backend (Render)
 
-## 🧰 Run Server
+Configured with `render.yaml`. On deploy, it runs:
 
-```bash(for local system)
-cd backend
-uvicorn app.main:app --reload
-```
-```for network accessed server
-cd backend
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+```bash
+uvicorn app.main:app --host 0.0.0.0 --port 10000
 ```
 
-Visit **[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)** for Swagger UI 🚀 on local system
+Example backend URL:
 
-visit **[http://YOUR_IP:8000/docs] (replace YOUR_IP with your server's IP address)** for Swagger UI 🚀 on any system
+```
+https://bioverse-backend.onrender.com
+```
 
-Try:
+### Frontend (Vercel)
 
-* `/search?q=plant`
-* `/recommend?q=gravity`
-* `/describe?q=bone`
+* Root: `frontend/project`
+* Add environment variable in Vercel:
 
----
-# 🚀 BioVerse: NASA Space Biology Knowledge Engine  
+  ```
+  VITE_API_URL=https://bioverse-backend.onrender.com
+  ```
+
+Example frontend URL:
+
+```
+https://bioverse.vercel.app
+```
+
+---# 🚀 BioVerse: NASA Space Biology Knowledge Engine  
 
 BioVerse is a web application built for the **NASA Space Apps Challenge 2025**.  
 It summarizes and makes accessible NASA’s bioscience research, enabling scientists, mission planners, and curious explorers to search, learn, and discover insights from decades of space biology experiments.  
@@ -46,3 +48,38 @@ Download here 👉 [Microsoft Visual C++ Build Tools](https://visualstudio.micro
 ```bash
 git clone https://github.com/YOUR_USERNAME/Nasa-Biology-Engine-.git
 cd Nasa-Biology-Engine--main/Bioverse
+
+
+
+## 🌍 Deployment
+
+### Backend (Render)
+
+Configured with `render.yaml`. On deploy, it runs:
+
+```bash
+uvicorn app.main:app --host 0.0.0.0 --port 10000
+```
+
+Example backend URL:
+
+```
+https://bioverse-backend.onrender.com
+```
+
+### Frontend (Vercel)
+
+* Root: `frontend/project`
+* Add environment variable in Vercel:
+
+  ```
+  VITE_API_URL=https://bioverse-backend.onrender.com
+  ```
+
+Example frontend URL:
+
+```
+https://bioverse.vercel.app
+```
+
+---
